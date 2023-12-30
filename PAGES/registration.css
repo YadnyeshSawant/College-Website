@@ -1,14 +1,20 @@
+span.imp{
+    margin-left: 10px;
+}
 body{
-    line-height: 1.42857143
+    line-height: 1.42857143;
+    margin-left: 400px;
+    background-color: rgba(222, 189, 227, 0.385);
 }
 div{
-    width: 24cm;
+    width: 20cm;
     border: 2px black solid;
     border-radius: 5px;
+    background-color:white;
 }
 ol{
     text-wrap: wrap;
-    width: 20cm;
+    width: 17cm;
 }
 span.imp{
     color: red;
@@ -25,4 +31,26 @@ label {
     display: inline-block;
     margin-bottom: 5px;
     font-weight: bold;
+}
+input{
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+section{
+    margin-left: 10px;
+}
+button{
+    padding: 6px;
+    background-color:blue;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 3px;
+    margin-bottom: 10px;
+}
+button:hover{
+    color: red;
 }
