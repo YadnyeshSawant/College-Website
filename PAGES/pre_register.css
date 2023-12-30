@@ -9,21 +9,21 @@ p.imp{
 }
 body{
     line-height: 1.42857143;
-    margin-left: 400px;
+    /* margin-left: 330px; */
     background-color: rgba(222, 189, 227, 0.385);
 
 }
 div.parent{
     padding-top: 12px;
     margin-top: 20px;
-    width: 20cm;
+    /* width: 20cm; */
     border: 2px black solid;
     border-radius: 5px;
     background-color:white;
 }
 ol{
     text-wrap: wrap;
-    width: 17cm;
+    width: 50%;
 }
 span.imp{
     color: red;
