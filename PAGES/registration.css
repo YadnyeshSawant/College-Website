@@ -3,18 +3,20 @@ span.imp{
 }
 body{
     line-height: 1.42857143;
-    margin-left: 400px;
+    /* margin-left: 400px; */
     background-color: rgba(222, 189, 227, 0.385);
 }
-div{
-    width: 20cm;
+div.parent{
+    /* width: 20cm; */
     border: 2px black solid;
     border-radius: 5px;
     background-color:white;
+    width: 80vw;
+    margin: auto;
 }
 ol{
     text-wrap: wrap;
-    width: 17cm;
+    /* width: 17cm; */
 }
 span.imp{
     color: red;
@@ -33,7 +35,7 @@ label {
     font-weight: bold;
 }
 input{
-    width: 400px;
+    /* width: 100%; */
     height: 25px;
     border-radius: 5px;
     font-weight: bold;
@@ -54,3 +56,12 @@ button{
 button:hover{
     color: red;
 }
+section.form-elements{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 500px) {
+    section.form-elements {
+      flex-direction: column;
+    }
+  }
