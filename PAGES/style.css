@@ -202,8 +202,145 @@ h1{
     height: 100%;
 }
 #course .courses img{
-    width: 50%;
+    width: 100%;
     height: 60%;
     background-size: cover;
     background-position: center;
+}
+.course .courses .details{
+    padding:15px 15px 0 15px;
+}
+#course .courses  i{
+    color: #fdc93b;
+    font-size: .9rem;
+}
+
+/*profile*/
+
+.experts{
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+.experts .expert-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2px,1fr));
+    grid-gap:1rem;
+    margin-top:50px;
+}
+.experts .expert-box .profile{
+    background: #fcfcf9;
+    padding: 30px 10px;
+}
+.pro-links{
+  margin-top: 10px;   
+}
+.pro-links i{
+    padding: 10px 13px;
+    border:1px solid rgb(21,21, 100);
+}
+.pro-links i:hover{
+    color: rgb(249, 249, 255);
+    background: #4c435f;
+    transition: 0.5s ease;
+}
+
+
+
+
+
+/*footer*/
+
+
+footer{
+    padding: 8vw;
+    background-color: #101c32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+footer .footer-col{
+    padding-bottom: 40px;
+}
+
+footer h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #f9f9ff;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li{
+    list-style: none;
+    color: #7b839a;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+footer h6{
+    width: 50%;
+    color: #7b839a;
+    font-size: small;
+    line-height: 22px;
+
+}
+footer li:hover{
+    color: #f9f9ff;
+}
+footer p{
+    color: #757373;
+}
+footer .subscribe{
+    margin-top: 20px;
+
+}
+footer input{
+    width: 220px;
+    padding: 15px 12px;
+    background: #334f6c;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: #fff;
+    font-weight: 600;
+}
+footer .subscribe a.yellow{
+    color: #fff;
+    background: #fdc93b;
+    transition: 0.3s ease;
+}
+footer .subscribe a.yellow:hover{
+    color: rgb(21,21, 100);
+    background: #fff;
+}
+
+footer .copyright{
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+footer .copyright .pro-links{
+    margin-top: 0px;
+    color: #757373;
+}
+footer .copyright p{
+    color: #fff;
+}
+footer .copyright .pro-links i{
+    padding:10px 13px;
+    border: 1px solid rgb(82, 82, 119);
+    cursor: pointer;
+}
+footer .copyright .pro-links i:hover{
+    color: rgb(21,21, 100);
+    background: #fff;
 }
