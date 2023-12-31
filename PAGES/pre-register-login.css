@@ -10,20 +10,23 @@ p.imp{
 body{
     line-height: 1.42857143;
     /* margin-left: 330px; */
-    background-color: rgba(222, 189, 227, 0.385);
+    /* background-color: rgba(222, 189, 227, 0.385); */
 
 }
 div.parent{
     padding-top: 12px;
     margin-top: 20px;
     /* width: 20cm; */
-    border: 2px black solid;
+    /* border: 2px black solid; */
     border-radius: 5px;
     background-color:white;
     margin: 20px;
+    background-image: linear-gradient(rgba(0, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),url(images/back1.jpg);
 }
 ol{
     text-wrap: wrap;
+    color: black;
+    font-size: 20px;
     /* width: 50%; */
 }
 span.imp{
