@@ -1,11 +1,12 @@
 body{
+    margin: 10%;
     line-height: 1.42857143;
     /* margin-left: 400px; */
-    background-color: rgba(222, 189, 227, 0.385);
+    /* background-color: rgba(222, 189, 227, 0.385); */
+    background-image: linear-gradient(rgba(0, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),url(images/back1.jpg);
 }
 div.parent{
-    /* width: 20cm; */
-    border: 2px black solid;
+    /* border: 2px black solid; */
     border-radius: 5px;
     background-color:white;
     width: 80vw;
@@ -40,6 +41,7 @@ input{
 }
 section{
     margin-left: 10px;
+    justify-content: space-around;
 }
 button{
     padding: 6px;
