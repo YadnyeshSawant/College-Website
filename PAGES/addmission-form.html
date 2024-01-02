@@ -7,20 +7,53 @@
     <link rel="stylesheet" href="addmission.css">
 </head>
 <body>
-    <nav>
-        <img src="images/Logo.png" alt="logo">
-        <div class="navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a class="log" href="previous_registration.html" >Login </a></li>
-                <li><a href="Details.html">Academic Details</a></li>
-                <li><a href="About.html">About Us</a></li>
-                <li><a href="notice.html">Notice</a></li>
-            </ul>
-        </div>
-        <div class="parent">
-            
-        </div>
-    </nav>
+	<section class="personal-details"><center> 
+		<div id="flex"> 
+        	<div class="first">
+        	    <label for="fname"> FIRST NAME:</label>
+			    <input type="text" id="fname" placeholder="Enter First Name"> <br><br>
+			
+        	    <label for="lname"> LAST NAME:</label>
+			    <input type="text" id="lname" placeholder="Enter Last Name"> <br><br>
+			
+        	    <label for="gender"> GENDER: </label>
+					<input type= "radio" id = "gender" name="gender">
+					<label for="gender"> MALE </label>
+					<input type= "radio" id = "gender" name= "gender">
+					<label for="gender"> FEMALE </label><br><br>
+			
+				<label for="contact">Contact Number:</label>
+				<input type="text" id="contact" placeholder="Enter number as on addhar card"><br><br>
+    		</div>
+
+    		<div class="right">
+        		<label for="dob">Date Of Birth:</label>
+        		<input type="date" id="dob"  placeholder="Date of Birth"><br><br>
+
+	    	    <label for="email">Email:</label>
+    		    <input type="text" id="email" placeholder="Enter Email"><br><br>
+        		<label for = "photo">Upload photo</label>
+					<input type = "file" id = "photo"><br><br>
+					<label for = "sign">Upload signature</label>
+					<input type = "file" id = "sign"><br><br>
+				<label for="degree"> Class:</label>
+					<select name="DEGREE TO PARTICIPATE IN" id = "degree">
+						<option> Select a course</option>
+						<option> BSC(Computer Science)</option>
+						<option> BSC(Botany)</option>
+						<option> BSC(Electronics)</option>
+						<option> Plain BSC</option>
+						<option> B.Com</option>
+						<option> BBA/CA</option>
+						<option> B.Tech</option>
+						<option> B.Tech (CSE)</option>
+						<option> B.VOC</option>
+					</Select><br><br>
+		</div>
+			</div></center>
+			<a href="religion and caste-details.html"> 
+				<center><button>SAVE</button></center>
+			</a>
+	</section>
 </body>
 </html>
