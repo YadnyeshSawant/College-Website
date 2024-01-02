@@ -7,6 +7,21 @@
 	<link rel="stylesheet" href="registration.css">
 </head>
 <body>
+    
+	<nav>
+        <img src="images/Logo.png" alt="logo">
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="log" href="previous_registration.html" >Login </a></li>
+                <li><a href="Details.html">Academic Details</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="notice.html">Notice</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu1.png" alt="">
+        </div>
+    </nav>
+
 	<div class="parent">
 		<span class="imp"><b> 
 			<h2>IMPORTANT INSTRUCTIONS FOR STUDENTS</h2></b></span>
@@ -32,7 +47,7 @@
 			</div>
 			<div> 
 				<label for="dob">Date Of Birth:</label>
-				<input type="date" id="dob" style="width: 168px;" placeholder="Date of Birth"><br><br>
+				<input type="date" id="dob"  placeholder="Date of Birth"><br><br>
 				<label for="pass"> Create Password:</label>
 				<input type="text" id="pass" placeholder="Enter Password"><br><br>
 				<label for="repass"> Re-enter Password:</label>
@@ -40,9 +55,10 @@
 			</div>
 		</section>	
 		<center> 
-			<button id="register"> CLICK TO REGISTER</button>
+			<button id="register"> CLICK TO SUBMIT</button>
 			<button id="clear">CLICK TO CLEAR</button>
-			<button id="have_acc"onclick="">HAVE ACCOUNT</button>
+			<a href="login.html">
+			<button id="have_acc"onclick="">HAVE ACCOUNT</button></a>
 		</center>
 		</div>
 </body>
