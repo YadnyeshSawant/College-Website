@@ -37,7 +37,7 @@ nav{
 }
 
 nav img{
-    width:100px;
+    width:139px;
     cursor: pointer;
 }
 nav .navigation {
@@ -227,7 +227,7 @@ h1{
 }
 
 .course .courses .details{
-    padding:15px 15px 0 15px;
+    padding:15px 15px 0 8px;
 }
 #course .courses  i{
     color: #fdc93b;
@@ -318,7 +318,7 @@ footer input{
     width: 220px;
     padding: 15px 12px;
     background: #334f6c;
-    border: none;asdf
+    border: none;
     outline: none;
     color: #fff;
 }
