@@ -59,7 +59,7 @@ nav .navigation ul li a .log::after{
     text-shadow: none;
     -webkit-font-smoothing: antialiased;
     font-family: 'fontawesome';
-    speak: none;
+    speak-as: none;
     font-weight: normal;
     font-variant: normal;
     line-height: 1;
