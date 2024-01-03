@@ -363,13 +363,13 @@ footer .copyright .pro-links i:hover{
     color: rgb(21,21, 100);
     background: #fff;
 }
-
 @media(max-width: 769){
-  nav{
-    padding: 15px 20px;
- }
- nav img{
-    width: 130px;
- }
-}
+    nav{
+      padding: 15px 20px;
+   }
+   nav img{
+      width: 130px;
+   }
+  }
+  
 
