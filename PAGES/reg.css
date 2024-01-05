@@ -74,11 +74,35 @@ form .fields .input-field{
      margin: 4px 0;
 }
 .input-field label{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
-    color: #2e2e2e;
+    color: #091f90;
+    /* color: #2e2e2e; */
+    
 }
 .input-field input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+.input-field select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+.input-field select{
     outline: none;
     font-size: 14px;
     font-weight: 400;
