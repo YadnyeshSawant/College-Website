@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'poppins', sans-serif;
-    background-image:linear-gradient(rgba(0, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),url(images/kvn_logo.jpg);
+    background-image:linear-gradient(rgba(0, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),url(images/back1.jpg);
     background-size: cover;
     display: flex;
 }
@@ -47,10 +47,10 @@ nav .navigation ul li{
 }
 nav .navigation ul li a{
     text-decoration: none;
-    color: rgb(21 21 100);
-    font-size: 16px;
+    color: rgb(9, 9, 69);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     font-weight: 500;
-    transition: 0.3s ease;
 }
 nav .navigation ul li a .log::after{
     text-shadow: none;
