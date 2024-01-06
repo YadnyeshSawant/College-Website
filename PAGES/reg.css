@@ -86,11 +86,13 @@ form .fields .input-field{
     font-weight: 400;
     color: #333;
     border-radius: 5px;
+    background-color: #ffffff;
     border: 1px solid #aaa;
     padding: 0 15px;
     height: 42px;
     margin: 8px 0;
 }
+
 .input-field select{
     outline: none;
     font-size: 14px;
@@ -119,26 +121,32 @@ form .fields .input-field{
 .input-field input[type="date"]:valid{
        color:#333
 }
-.container form button{
+.btn{
+    margin: 30px;
+    align-content: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 45px;
-    max-width:200px ;
-    width: 100%;
-   border: none;
-   outline: none;
-   color: #fff;
-   border-radius: 5px;
-   margin:25px 0;
-   background-color: #2158c5;
-   transition: all 0.3s linear;
-   cursor: pointer;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-.container form button:hover{
-    background-color: #2f09f0;
-    transition: 0.3 ease;
+ a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 15px 30px;
+    color: #ffffff;
+    background-color: #171871;
+    font-weight: 600;
+    border-radius: 9px;
+    text-align: center;
 }
-form button i{
-    margin:0 6px;
+.input-field .file{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #aaa;
+    padding: 10px 15px;
+    height: 42px;
+    margin: 8px 0;
 }
