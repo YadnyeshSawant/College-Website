@@ -50,10 +50,10 @@ nav .navigation ul li{
 }
 nav .navigation ul li a{
     text-decoration: none;
-    color: rgb(21 21 100);
-    font-size: 16px;
+    color: rgb(9, 9, 69);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     font-weight: 500;
-    transition: 0.3s ease;
 }
 nav .navigation ul li a .log::after{
     text-shadow: none;
@@ -139,6 +139,7 @@ input{
     margin-right: 50px;
     text-align: center;
 }
+
 section{
     margin-left: 10px;
     text-align:justify ;
@@ -154,6 +155,7 @@ button{
     margin: 30px;
     cursor: pointer;
 }
+
 button:hover{
     color:rgb(21,21, 100);
     background: #fff;
@@ -168,4 +170,12 @@ section.form-elements{
     section.form-elements {
       flex-direction: column;
     }
+  }
+  @media(max-width: 769){
+    nav{
+      padding: 15px 20px;
+   }
+   nav img{
+      width: 130px;
+   }
   }
