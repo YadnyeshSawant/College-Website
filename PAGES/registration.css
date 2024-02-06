@@ -128,21 +128,24 @@ label {
     text-align: left;
 }
 input{
-    align-items:end;
-   width: 250px; 
-    height: 35px;
-    justify-content: right;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
     border-radius: 5px;
-    font-weight: bold;
-    
-    color: #000000;
-    margin-right: 50px;
-    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    /* margin: 8px 0; */
 }
 
 section{
-    margin-left: 10px;
-    text-align:justify ;
+    /* margin-left: 10px;
+    text-align:justify ; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
 }
 button{
     text-decoration: none;
